@@ -198,6 +198,36 @@ main {
     line-height: 0;
 }
 
+/* Sign-up page */
+
+
+#signup {
+    background: url('../images/signup-image.webp');
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+    margin: 20px 10px;
+}
+
+form h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    margin: 30px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    border-radius: 2px;
+}
+
+
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -282,7 +312,7 @@ main {
     }
 
     /* Gallery */
-    #photos: {
+    #photos {
         column-count: 3;
     }
 }
