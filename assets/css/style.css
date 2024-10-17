@@ -343,6 +343,31 @@ form h2 {
     #photos {
         column-count: 3;
     }
+
+    /* signup page */
+    #signup {
+        background-size: cover;
+        
+    }
+
+    #signup-form {
+        position: fixed;
+        max-width: 400px;
+        margin-top: 150px;
+        margin-left: 10%;
+
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
